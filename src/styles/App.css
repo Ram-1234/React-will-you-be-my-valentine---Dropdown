@@ -14,3 +14,17 @@ button{
 .bg-pink{
 	background-color:pink;
 }
+
+.container {
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: flex-start;
+}
+
+.title{
+    margin: 4rem;
+    color: brown;
+    font-size: larger;
+
+}

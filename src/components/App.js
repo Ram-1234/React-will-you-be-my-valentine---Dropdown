@@ -1,6 +1,6 @@
 import React, { useState,useReducer } from "react";
 import "./../styles/App.css";
-
+import Container from './Container';
 
 const states = [{
 	name : "Madhya Pradesh",
@@ -143,7 +143,7 @@ function App()
 	// Do not alter/remove main div
 	return (
 	<div id="main">
-		
+	<Container state={states}/>	
 	</div>
 	);
 }
