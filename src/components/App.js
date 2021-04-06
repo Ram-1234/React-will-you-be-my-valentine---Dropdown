@@ -143,7 +143,7 @@ function App()
 	// Do not alter/remove main div
 	return (
 	<div id="main">
-	<Container state={states}/>	
+	<Container states={states}/>	
 	</div>
 	);
 }
